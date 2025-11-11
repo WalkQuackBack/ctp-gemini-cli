@@ -3,7 +3,7 @@ whiskers:
   version: "^2.3.0"
   matrix:
     - flavor
-  filename: "themes/{{flavor.identifier}}/catppuccin.json"
+  filename: "themes/catppuccin-{{flavor.identifier}}.json"
   hex_format: "#{{r}}{{g}}{{b}}"
 ---
 
